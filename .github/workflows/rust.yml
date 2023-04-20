@@ -21,8 +21,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: cargo build --verbose --locked --profile ${{ matrix.profile }}
+      run: cargo build --verbose --profile ${{ matrix.profile }}
     - name: Run Tests
-      run: cargo test --verbose --locked --profile ${{ matrix.profile }}
+      run: cargo test --verbose --profile ${{ matrix.profile }}
     - name: Upload Coverage Reports to Codecov
       uses: codecov/codecov-action@v3
