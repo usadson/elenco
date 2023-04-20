@@ -13,3 +13,5 @@ out.*
 perf.*
 flamegraph*
 *.profraw
+
+Cargo.lock
