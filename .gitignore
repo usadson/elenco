@@ -1,0 +1,15 @@
+.servente
+.vscode
+target
+wwwroot
+
+callgrind*
+massif*
+dhat*
+out.*
+*.out
+*.out.*
+*.data
+perf.*
+flamegraph*
+*.profraw
